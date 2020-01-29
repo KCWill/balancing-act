@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+
+
+.navigate {
+  list-style-type: none;
+  background-color: blue;
+  width: 80px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  overflow: auto;
+}
+
+#close {
+  position: absolute;
+  left: 290px;
+}
+
+#welcome {
+  position: relative;
+  width:300px;
+  height: 50px;
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
+}
+
+.accountRow {
+  list-style-type: none;
+  display: inline;
+}
+
+.navImage {
+  padding: 0px 20px 0px 20px;
+}
+.accountData {
+    list-style-type: none;
+    background-color: yellow;
+    width: 280px;
+    height: 50px;
+    margin: 0px;
+    padding: 10px;
+  }
+}
+
+.special {
+  line-height: 200%;
+ }
+
+
+#elephant {
+  padding: 3px 0px 200px 0px;
+}
+
+.column1of2 {
+  float: left;
+  width: 300px;
+  margin: 10px;
+  background-color:red;
+}
+
+.column2of2 {
+  float: left;
+  width: 300px;
+  margin: 10px;
+  background-color: green;
+}
+article {
+  margin-left:80px;
+  padding: 1px;
+}
+h2,h3 {
+  display: inline-block;
+  padding-left: 10px;
+}
+p {
+  padding-left: 10px;
+}
