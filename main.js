@@ -8,12 +8,16 @@ function hide() {
   welcomeWindow.classList.add('hiddenWindow');
 };
 
-//Navigation border toggling
+//Page Navigation
 
 //Defining input images
-var navDashboard = document.querySelector('#dashboard');
-var navWallet = document.querySelector('#wallet');
-var navProfile = document.querySelector('#profile');
+var navDashboard = document.querySelector('#dashboardIcon');
+var navWallet = document.querySelector('#walletIcon');
+var navProfile = document.querySelector('#profileIcon');
+
+//Page variables
+
+var dashboard = document.querySelector('.dashboard');
 
 
 //Clicking on dashboard icon
@@ -29,6 +33,7 @@ function borderDash(){
   navDashboard.classList.add('navImageCurrent');
   navWallet.classList.add('navImageUnmarked');
   navProfile.classList.add('navImageUnmarked');
+  dashboard.style.display = 'inline';
 }}
 
 //Clicking on wallet icon
@@ -44,6 +49,7 @@ function borderWall(){
   navWallet.classList.add('navImageCurrent');
   navDashboard.classList.add('navImageUnmarked');
   navProfile.classList.add('navImageUnmarked')
+  dashboard.style.display = 'none';
 }
 }
 
