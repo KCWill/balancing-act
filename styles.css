@@ -65,6 +65,10 @@ th {
   margin-bottom: 20px;
 }
 
+.hiddenWindow {
+  display: none;
+}
+
 #welcomeText {
   position: absolute;
   display: inline-block;
@@ -193,19 +197,20 @@ button {
   top: 25px;
 }
 
-.hiddenWindow {
-  display: none;
-}
-
-.navImage {
+/* Navigation Turquoise Border and Formatting */
+.navImageUnmarked {
   padding: 5px 20px 5px 17px;
   width: 40px;
   border-left: solid 3px transparent;
 }
 
-.navImage:hover {
+.navImageCurrent {
+  padding: 5px 20px 5px 17px;
+  width: 40px;
   border-left: solid 3px #1CA3BA;
 }
+
+/* -----------------*/
 
 .payeeTable {
   width: 180px;
