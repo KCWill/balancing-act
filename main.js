@@ -9,7 +9,7 @@ function hide() {
 };
 
 //Page Navigation
-
+ 
 //Defining input images
 var navDashboard = document.querySelector('#dashboardIcon');
 var navWallet = document.querySelector('#walletIcon');
