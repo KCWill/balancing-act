@@ -9,15 +9,16 @@ function hide() {
 };
 
 //Page Navigation
- 
+
 //Defining input images
 var navDashboard = document.querySelector('#dashboardIcon');
 var navWallet = document.querySelector('#walletIcon');
 var navProfile = document.querySelector('#profileIcon');
 
 //Page variables
-
 var dashboard = document.querySelector('.dashboard');
+var wallet = document.querySelector('.wallet');
+var profile = document.querySelector('.profile');
 
 
 //Clicking on dashboard icon
@@ -34,6 +35,8 @@ function borderDash(){
   navWallet.classList.add('navImageUnmarked');
   navProfile.classList.add('navImageUnmarked');
   dashboard.style.display = 'inline';
+  wallet.style.display = 'none';
+  profile.style.display = 'none';
 }}
 
 //Clicking on wallet icon
@@ -48,8 +51,10 @@ function borderWall(){
   navWallet.classList.remove('navImageUnmarked');
   navWallet.classList.add('navImageCurrent');
   navDashboard.classList.add('navImageUnmarked');
-  navProfile.classList.add('navImageUnmarked')
+  navProfile.classList.add('navImageUnmarked');
+  wallet.style.display = 'inline-block';
   dashboard.style.display = 'none';
+  profile.style.display = 'none';
 }
 }
 
@@ -66,5 +71,8 @@ function borderProf(){
   navProfile.classList.add('navImageCurrent');
   navWallet.classList.add('navImageUnmarked');
   navDashboard.classList.add('navImageUnmarked')
+  dashboard.style.display = 'none';
+  profile.style.display = 'inline-block';
+  wallet.style.display = 'none';
 }
 }
